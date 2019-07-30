@@ -1,0 +1,10 @@
+118c6fa5-544d-41a8-aac5-b118c3c6365d|steli0|steli0
+bdb6040b-49e3-44d1-aecf-7b2b17320a40|steli1|steli1
+c320f0c5-78e7-45c9-8e78-97ce4b9580e9|steli2|steli2
+7dd40edd-3552-4372-8799-2b0f9487bc7d|steli3|steli3
+1c66bd2e-8905-464a-8f18-3b9e5183aba3|steli4|steli4
+f07c2db1-d6e0-43d0-afff-074a37dd9abb|steli5|steli5
+0b941859-fd4e-4305-b26f-69443f6a04e0|steli6|steli6
+3167d360-7ad4-474c-bae3-19cdc7698a3e|steli7|steli7
+953a4f9b-99b3-4b5d-81be-4c0fad475063|steli8|steli8
+77bb3f58-3c1d-4c61-9df1-df36681b9d6d|steli9|steli9
