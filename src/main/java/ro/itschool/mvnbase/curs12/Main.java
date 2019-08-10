@@ -4,11 +4,11 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        DocSource docSource = new FileLineDocSource("src/main/resources/doc.in");
+        DocSource docSource = new FileLineDocSource("src/Main/resources/doc.in");
 
         testDocumentService(docSource);
 
-        DocSource docSource2 = new FileSplitDocSource("src/main/resources/doc2.in");
+        DocSource docSource2 = new FileSplitDocSource("src/Main/resources/doc2.in");
 
         testDocumentService(docSource2);
     }

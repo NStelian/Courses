@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        CountryReader countryReader = new CountryReader("src/main/resources/curs15/countries.txt");
+        CountryReader countryReader = new CountryReader("src/Main/resources/curs15/countries.txt");
         System.out.println(countryReader.getCountries());
         CountryStatistics countryStatistics = new CountryStatistics(countryReader.getCountries());
         System.out.println(countryStatistics.getCountriesStartingWithLetter("Z"));
@@ -15,7 +15,7 @@ public class Main {
         System.out.println(countryStatistics.getMostPeopleCountry());
         System.out.println(countryStatistics.getMostDenseCountry());
 
-        CountryWriter countryWriter = new CountryWriter("src/main/resources/curs15/countriesWriter.txt");
+        CountryWriter countryWriter = new CountryWriter("src/Main/resources/curs15/countriesWriter.txt");
         countryWriter.writeCountry(countryReader.getCountries());
     }
 }
