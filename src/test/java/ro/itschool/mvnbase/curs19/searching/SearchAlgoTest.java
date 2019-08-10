@@ -13,7 +13,8 @@ class SearchAlgoTest {
     private static Stream<Arguments> searchAlgos(){
         return Stream.of(
                 Arguments.of(new LinearSearch()),
-                Arguments.of(new BinarySearch())
+                Arguments.of(new BinarySearch()),
+                Arguments.of(new RecursionLiniarSearch())
         );
     }
 

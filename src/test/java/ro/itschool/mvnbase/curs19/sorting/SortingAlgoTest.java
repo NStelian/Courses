@@ -18,7 +18,8 @@ class SortingAlgoTest {
     private static Stream<Arguments> sortAlgos() {
         return Stream.of(
                 Arguments.of(new BubbleSort()),
-                Arguments.of(new SelectionSort())
+                Arguments.of(new SelectionSort()),
+                Arguments.of(new InsertSort())
         );
     }
 
