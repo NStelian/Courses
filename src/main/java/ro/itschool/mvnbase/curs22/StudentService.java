@@ -89,24 +89,8 @@ public class StudentService {
                 .collect(toList());
     }
 
-//    public int reducedHighestGrade() {
-//        return students.stream()
-//                .mapToInt(Student::getGrade)
-//                .reduce()
-//    }
-
     public Map<String, Integer> mapNameToGrade() {
         return students.stream()
                 .collect(toMap(Student::getName, Student::getGrade, (oldGrade, newGrade) -> (oldGrade + newGrade) / 2));
     }
-
-//    public Map<String, List<Integer>> mapNametoGradesList() {
-//        return students.stream()
-//                .collect(toMap(Student::getName, student -> List.of(student.getGrade(), (l1,l2)-> merge(l1,l2))));
-//    }
-
-//    private List<Integer> merge(List<Integer> l1, List<Integer> l2) {
-//        l1.addAll(l2)
-//        return l1;
-//    }
 }
