@@ -26,6 +26,6 @@ public class MethodRefs {
         //System.out.println(studentService.reducedHighestGrade());
 
         System.out.println(studentService.mapNameToGrade());
-        System.out.println(studentService.mapNametoGradesList());
+        //System.out.println(studentService.mapNametoGradesList());
     }
 }

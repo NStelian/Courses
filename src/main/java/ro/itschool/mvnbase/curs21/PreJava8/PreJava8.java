@@ -1,4 +1,4 @@
-package ro.itschool.mvnbase.curs21;
+package ro.itschool.mvnbase.curs21.PreJava8;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,37 +37,3 @@ public class PreJava8 {
 
 }
 
-class StartWithPredicate implements ListPredicate {
-
-    private final String prefix;
-
-    public StartWithPredicate(String prefix) {
-        this.prefix = prefix;
-    }
-
-    @Override
-    public boolean applyCondition(String name) {
-        return name.startsWith(prefix);
-    }
-}
-
-class EqualPredicate implements ListPredicate {
-
-    private final String template;
-
-    public EqualPredicate(String template) {
-        this.template = template;
-    }
-
-    @Override
-    public boolean applyCondition(String name) {
-        return this.template.equals(name);
-    }
-
-}
-
-interface ListPredicate {
-
-
-    boolean applyCondition(String name);
-}

@@ -1,4 +1,4 @@
-package ro.itschool.mvnbase.curs21;
+package ro.itschool.mvnbase.curs21.ModifyWithLampda;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,3 @@ public class ModifyWithLampda {
     }
 }
 
-@FunctionalInterface
-interface ListFunction {
-    String apply(String value);
-}

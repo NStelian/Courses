@@ -1,4 +1,4 @@
-package ro.itschool.mvnbase.curs21;
+package ro.itschool.mvnbase.curs21.PostJava8;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +26,3 @@ public class PostJava8 {
     }
 }
 
-@FunctionalInterface
-interface AnotherListPredicate {
-    boolean apply(String value);
-}
