@@ -100,13 +100,13 @@ public class StudentService {
                 .collect(toMap(Student::getName, Student::getGrade, (oldGrade, newGrade) -> (oldGrade + newGrade) / 2));
     }
 
-    public Map<String, List<Integer>> mapNametoGradesList() {
-        return students.stream()
-                .collect(toMap(Student::getName, student -> List.of(student.getGrade(), (l1,l2)-> merge(l1,l2))));
-    }
-
-    private List<Integer> merge(List<Integer> l1, List<Integer> l2) {
-        l1.addAll(l2)
-        return l1;
-    }
+//    public Map<String, List<Integer>> mapNametoGradesList() {
+//        return students.stream()
+//                .collect(toMap(Student::getName, student -> List.of(student.getGrade(), (l1,l2)-> merge(l1,l2))));
+//    }
+//
+//    private List<Integer> merge(List<Integer> l1, List<Integer> l2) {
+//        //l1.addAll(l2)
+//        return l1;
+//    }
 }
